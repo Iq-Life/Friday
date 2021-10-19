@@ -1,0 +1,52 @@
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: center;
+    cursor: pointer;
+    transform: translateX(+91.7%);
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 0;
+    transition: transform 500ms ease;
+}
+
+.headerMenu:hover {
+    transform: translateX(0);
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #348cb2;
+    padding: 3px 10px;
+}
+
+.link:hover {
+    color: #2196f3;
+}
+.activeLink {
+   background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.block {
+    width: 60px;
+    height: 60px;
+    background-image: url("./assent/icon/Menu_icon.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+}
+
+.block:hover .headerMenu {
+    transform: translateX(0);
+}

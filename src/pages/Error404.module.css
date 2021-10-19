@@ -1,0 +1,25 @@
+.errorPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 60px;
+  background-image: url("../assent/icon/space.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+.errorPageText h4, h5{
+  margin: 0;
+  padding: 0;
+}
+.errorPageText h5{
+  padding-left: 50px;
+}
+.errorPageCat{
+  font-size: 80px;
+  color: black;
+  text-shadow: 0 0 3px white;
+}
